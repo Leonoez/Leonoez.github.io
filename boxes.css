@@ -1,0 +1,89 @@
+/*
+.container{
+    border: 10px solid black;
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+#box1{
+    background-color: aqua;
+    height: 20vh;
+    width: 100%;
+}
+
+#box2{
+    background-color: red;
+    height: 20vh;
+    width: 50%;
+}
+
+#box3{
+    background-color: blue;
+    height: 20vh;
+    width: 50%;
+}*/
+
+
+/*
+
+<body>
+        <!-- This is a the start of the website-->
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li><a>Hello!</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Family&Friends</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            
+                
+            <div class="container">
+
+                <div class="box" id="box1">
+                    <h1>Hallo!</h1>
+                    <h3>Hey, Hey! I'm Leonardo Özuluca, a programmer, mathematician and data analyst.</h3>
+                </div>
+
+                <div class="box" id="box2">
+                    <p> About me:<br>
+                        I study Computer Science at the Technical University of Munich.</p>
+                
+                    <ul>
+                        <li>Portfolio: here you can find the most recent projects I worked on</li>
+                        <li>Part of my Friends and Family? Have a look at the Family&Friends section.</li>
+                        <li>Want to contact me? Have a look under Contact.</li>
+                    </ul>
+                </div>
+                
+            
+                <div class="box" id="box3">
+                    <img src="Portrait.jpg"
+                    alt="This is a picture of me"
+                    height="200"> 
+                </div>
+            </div>
+        </main>
+
+        <!-- Bottom Part of the website-->
+        <footer>
+
+            <hr>
+            <a href="contact.html">Contact</a>
+            <a>Imprint</a>
+            <hr>
+
+        </footer>
+    </body>
+
+*/
