@@ -3,6 +3,9 @@
     left: 0;
     width: 100%;
 }
+
+
+
 body{
     margin: 0;
     align-items: center;
@@ -14,12 +17,17 @@ body{
 main{
     display: flex;
     justify-content: center;
+    
 }
 
 .content{
-    border: 10px solid black;
+    /*border: 10px solid black;*/
     align-self: center;
     width: 50%;
     
+}
+
+#mybul li{
+    padding: 10px 0px;
 }
 
