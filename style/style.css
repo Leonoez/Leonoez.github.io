@@ -31,3 +31,14 @@ main{
     padding: 10px 0px;
 }
 
+@media screen and (max-width:600px) {
+    .content{
+        width: 100%;
+    }
+    main{
+        justify-content: left;
+    }
+    body{
+        background-color: aqua;
+    }
+}

@@ -1,26 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>presents</title>
+    <title>FnF</title>
     <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/style.css">
 
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 95%;
+        }
+    </style>
 </head>
+
 <body>
     <header class="header">
         <nav class="navbar">
             <ul>
-                <li><a href="index.html" style="color:rgb(100, 100, 224);">Hello!</a></li>
+                <li><a href="index.html">Hello!</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="FnF.html">Family&Friends</a></li>
-                <li><a href="presents.html">presents</a></li>
+                <li><a href="FnF.html" >Family&Friends</a></li>
+                <li><a href="presents.html" style="color:rgb(100, 100, 224);">Presents</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTCAozwfJGtu6d5UapgOzBIswyp4GX5lAozd2t87lvj_yN-dijc4k5vASS7ERkW-N0fVVZEWpaqHSGl/pub?embedded=true">Hello</iframe>
 
+    <main style=" flex-wrap: wrap;align-content: center;height: 100%;">
+        <div class="content">
+            <h1>HEY!</h1>
+            <p>Welcome to the interactive wishlist. If you are in search for a present for me you are right here.</p>
+            <h2>How does this work?</h2>
+            <p>In the lower half of this website a google docs document is going to load. Feel free to use it if you only want to have a look around, 
+                or just search for ideas. If at some point you decided on something from the list, mark it as bought. <br>
+                To do that, use <a href="https://docs.google.com/document/d/1EF9bfPWcnt2G_J1cBujPuDn0tIOh5R-LLcRw0emoTo8/edit?usp=sharing">this link</a>
+                to access the original document. You will have commenting rights in that document. Just delete what you bought. This will then
+                appear as <del>deleted</del> text so that everyone knows it was bought already. When I actually received that present I will completely take it out of the list.
+                The local copy on this website will update automatically within a couple of minutes.<br>
+                (You have an idea how do do a better interactive wishlist in html and css, feel free to write me about it to leonoez@web.de)
+            </p>
+
+            
+            
+
+
+        </div>
+        <iframe
+            src="https://docs.google.com/document/d/e/2PACX-1vTCAozwfJGtu6d5UapgOzBIswyp4GX5lAozd2t87lvj_yN-dijc4k5vASS7ERkW-N0fVVZEWpaqHSGl/pub?embedded=true"
+            width="80%" height="60%">Hello</iframe>
+
+
+    </main>
+
+    <!-- Bottom Part of the website-->
+    <footer>
+
+        <hr>
+        <a href="contact.html">Contact</a>
+        <a href="imprint.html">Imprint</a>
+        <hr>
+
+    </footer>
 </body>
+
 </html>
