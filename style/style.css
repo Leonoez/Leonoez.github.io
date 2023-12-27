@@ -10,6 +10,7 @@ body{
     margin: 0;
     align-items: center;
     align-content:  center;
+    display: block;
     /*padding: 30px;*/
     /*background-color: aqua;*/
 }
@@ -31,9 +32,22 @@ main{
     padding: 10px 0px;
 }
 
+footer{
+    padding: 20px;
+}
+
+#gdocs{
+    height: 60%;
+    width: 80%;
+}
+
 @media screen and (max-width:600px) {
     .content{
         width: 100%;
+    }
+    #gdocs{
+        width:90%;
+        height: 90vh; 
     }
     main{
         display: block;
